@@ -108,7 +108,7 @@ int main(int argc, char* argv[]){
 		insert(ternaryTree,input);//insert on each iteration
 		} 
 	printTern(ternaryTree);
-	
+	delete ternaryTree;
 
 
 return 0;
